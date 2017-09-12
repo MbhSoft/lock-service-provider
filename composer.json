@@ -1,0 +1,25 @@
+{
+    "name": "mbhsoft/lock-service-provider",
+    "description": "",
+    "type": "library",
+    "require": {
+        "silex/silex": "~2.0@dev",
+        "symfony/lock": "3.3.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marc Bastian Heinrichs",
+            "email": "mbh@mbh-software.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MbhSoft\\SilexLock\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
